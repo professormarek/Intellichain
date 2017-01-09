@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Participatory Decision Support on the Blockchain!!!</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="./app.js"></script>
+
+</head>
+<body>
+  <h1>Participatory Decision Support on the Blockchain</h1>
+  <h2>Simulation stats:</h2>
+  <h3>Simulated Time Elapsed <span class="black"><span id="simTime"></span> Seconds</span></h3>
+  <h3>Agent count: <span class="black"><span id="agentCount"></span> Agents</span></h3>
+  <h3>Infected agent count <span class="black"><span id="infectedAgentCount"></span> Agents</span></h3>
+  <span id="chart_span">
+    <div id="chart_div"></div>
+  </span>
+  <span id="status"></span>
+
+  <br>
+  <h1>Interact: </h1>
+  <br>
+  <h2>Advance Simulation Time</h2>
+  <br><label for="timeSteps">Number of hours to advance:</label><input type="text" id="timeSteps" placeholder="1"></input>
+  <br><br><button id="advanceTime" onclick="advanceTime()">Advance Time</button>
+  <br><br>
+
+  <h2>Add Agent</h2>
+  <br><label for="agentName">Name:</label><input type="text" id="agentName" placeholder="Alice"></input>
+  <br><label for="agentInitialLocation">Initial Location:</label><input type="text" id="agentInitialLocation" placeholder="e.g., 1"></input>
+  <br><label for="agentNumContacts">Contacts per time step:</label><input type="text" id="agentNumContacts" placeholder="e.g., 2"></input>
+  <br><br><button id="addAgent" onclick="addAgent()">Create Agent</button>
+
+  <br><br>
+  <h2>Record Agent Movement</h2>
+  <br><label for="agentId">Agent ID</label><input type="text" id="agentId" placeholder="e.g.1"></input>
+  <br><label for="fromLocation">Movement from Location:</label><input type="text" id="fromLocation" placeholder="e.g., 1"></input>
+  <br><label for="toLocation">Movement to Location:</label><input type="text" id="toLocation" placeholder="e.g., 2"></input>
+  <br><label for="times">Count of observations:</label><input type="text" id="times" placeholder="e.g., 7"></input>
+  <br><br><button id="addMovement" onclick="addMovement()">Observe Movement</button>
+
+  <br><br>
+  <h1>Simulation Event Log: </h1>
+  <ul id="eventList" style="list-style: none;">
+  <li id="element1">Placeholder One</li>
+    <li id="element2">Placeholder Two</li>
+    <li id="element3">Placeholder Three</li>
+  </ul>
+  <br>
+</body>
+</html>
