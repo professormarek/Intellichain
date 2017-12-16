@@ -1,5 +1,5 @@
 # Intellichain
-Intellichain - a blockchain enabled Data Science framework, which includes the capability to carry out on-chain analytics paried with advanced 
+Intellichain - a blockchain enabled Data Science framework, which includes the capability to carry out on-chain analytics paried with advanced knowlwedge translation capabilities such as VR.
 
 This demo application implements an Agent Based Model for disease spread using the Solidty programming language for the Etheruem blockchain paltform. It is currently set up to work with Truffle 3.
 
