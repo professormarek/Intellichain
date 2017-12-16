@@ -1,7 +1,7 @@
 # Intellichain
-Intellichain - a blockchain enabled complex social systems decision support framework
+Intellichain - a blockchain enabled Data Science framework, which includes the capability to carry out on-chain analytics paried with advanced 
 
-ABM.sol implements an Agent Based Model for disease spread using the Solidty programming language.
+This demo application implements an Agent Based Model for disease spread using the Solidty programming language for the Etheruem blockchain paltform. It is currently set up to work with Truffle 3.
 
 If you have a running Ethereum client listening for RPC on port 8545 you should be able to just open up /build/index.html to interact with the deployed contract (if your account is unlocked and you have ETH). This might work with MetaMask as well.
 
